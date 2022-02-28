@@ -524,7 +524,7 @@ hr {
 }
 
 /* MEDIA QUERIES */
-@media (max-width: 424px){
+@media (max-width: 430px){
 	* {
     	margin: 0;
     	padding: 0;
