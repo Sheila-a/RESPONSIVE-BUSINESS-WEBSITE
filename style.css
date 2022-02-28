@@ -1,0 +1,828 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    bottom: 0;
+    box-sizing: border-box;
+}
+
+body {
+   background-color: rgb(220, 232, 245); 
+   text-align: center;
+}
+
+/* LANDING PAGE */
+.bi-boxes {
+    margin-left: 10px;
+}
+.title {
+    margin-left: -50rem;
+    font-size: 25px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-image: linear-gradient(to bottom, #6ebff5, #2980b9);
+    align-items: center;
+    position: sticky;
+    top: 0;
+    height: 60px;
+}
+.hide {
+	visibility: hidden;
+}
+
+.nav {
+    position: sticky;
+    top: 0;
+	z-index: 2;
+}
+
+.nav__logo {
+    width: 5%;
+    margin-left: 20px;
+}
+
+.nav__list {
+    display: flex;
+    list-style: none;
+    margin-right: 20px;
+}
+
+.nav__items:hover {
+    border-bottom: 1px solid #000;
+}
+
+.nav__items {
+    padding: 10px;
+    text-transform: capitalize;
+    font-weight: 500;
+    font-size: 20px;
+    opacity: 0.6;
+    font-family: 'Redressed', cursive;
+    margin-right: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+h1 {
+    font-size: 70px;
+    /* padding: 10px 0px 10px px; */
+}
+
+p {
+    line-height: 2;
+}
+
+hr {
+    border-color: #2980b9;    
+    border-width: 5px;
+    border-style: dotted none none none;
+    height: 0px;
+    width: 3%;
+    margin: 0 auto 0 auto;
+}
+
+.Welcome_div {
+    background-color: rgb(199, 221, 253);
+    margin: auto 250px auto 250px;
+    box-shadow: 5px 5px 5px rgb(163, 199, 240);
+    border-radius: 2px;
+}
+
+.Welcome {
+    margin-top: 50px;
+    padding: 10px 0px 10px 0px;
+}
+.Welcome_paragraph {
+    width: 100%;
+    margin: 10px auto 10px auto;
+    padding: 10px 20px;
+    line-height: 2;
+    font-size: 25px;
+}
+
+.CEO_div {
+    background-color: rgb(199, 221, 253);
+    margin: auto 250px auto 250px;
+    box-shadow: 5px 5px 5px rgb(163, 199, 240);
+    border-radius: 2px;
+}
+
+.CEO {    
+    padding: 20px 0px 20px 0px;
+}
+
+.CEO_img {
+    height: auto;
+    width: 200px;
+}
+
+.CEO_paragraph {
+    width: 100%;
+    margin: 10px auto 10px auto;
+    padding: 10px 20px;
+    line-height: 2;
+    font-size: 25px;
+}
+
+/* Register */
+
+#register {
+    /* background-color: rgb(172, 210, 241); */
+    background-image: linear-gradient(to bottom, #ecf1f5, #95b3c7,#2980b9);
+    /* bottom: 0rem; */
+}
+.headbox {
+    width: 500px;
+    padding: 8px 3px 8px 3px; 
+    margin-top: 0px;
+    /* border-radius: 5px; */
+    /* border-style:groove; */
+    font-family: 'poppins';
+}
+
+.heads {
+    margin-bottom: 0px;
+    margin-top: 15px;
+    font-weight: 1000;
+    font-size: 20px;
+    text-align: left;
+    padding-left: 42px;
+    /* color: white; */
+    color: #2980b9;    
+}
+
+.headbox:focus {
+    border-color: #fbfcff;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.card {
+    margin: 71px auto 50px auto;
+    text-align: center;
+    padding: 5px 0px 20px 0px;
+    /* background-color: rgb(136, 192, 238); */
+    /* background-color: #fff; */
+    background-image: linear-gradient(to bottom, #ecf1f5, #95b3c7,#2980b9);
+    width: 600px;
+    border: 1px;
+    box-shadow: 5px 5px 5px #1a1b1b;
+}
+
+.btn {
+  background: #6ebff5;
+  background-image: -webkit-linear-gradient(top, #6ebff5, #2980b9);
+  background-image: -moz-linear-gradient(top, #6ebff5, #2980b9);
+  background-image: -ms-linear-gradient(top, #6ebff5, #2980b9);
+  background-image: -o-linear-gradient(top, #6ebff5, #2980b9);
+  background-image: linear-gradient(to bottom, #6ebff5, #2980b9);
+  -webkit-border-radius: 5;
+  -moz-border-radius: 5;
+  border-radius: 5px;
+  text-shadow: 2px 2px 5px #0a0a0a;
+  -webkit-box-shadow: 0px 1px 3px #666666;
+  -moz-box-shadow: 0px 1px 3px #666666;
+  box-shadow: 0px 1px 3px #666666;
+  font-family: Georgia;
+  color: #bae1e8;
+  font-size: 15px;
+  padding: 7px 30px 7px 30px;
+  margin-top: 10px;
+  border: solid #004773 1px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+
+.checkbox__list {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.agree {
+    color: #fbfcff;
+}
+
+
+.btn_n {
+  /* background-color: DodgerBlue; */
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  border: none;
+  color: white;
+  padding: 12px 16px;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 5px 5px 5px rgb(163, 199, 240);
+  margin-right: 5px;
+
+}
+
+
+/* LOGIN */
+#login {
+    margin: 150px auto;
+}
+
+/* ----- container stylings:*/
+.container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: auto 250px;
+	height: 300pxpx;
+}
+/* ----- end of container stylings ----- */
+.content {
+			position: relative;
+    		box-shadow: 5px 5px 5px rgb(163, 199, 240);
+    		border-radius: 2px;
+		}
+
+		/* ----- slideshow stylings ----- */
+		.slideshow {
+			height: 100%;
+			overflow: hidden; /* to hide slides in x-direction */
+			position: relative;
+		}
+		/* wrapper which wraps all the slideshow images stylings */
+		.slideshow-wrapper {
+			display: flex;
+			/* width: 400%; */
+			height: 100%;
+			width: 860px;
+			position: relative;
+			/* you can change the animation settings from below */
+			animation: slideshow 30s infinite;
+		}
+		/* define width and height for images*/
+		.slide-img {
+			width: 860px;
+			/* height: 20px; */
+			object-fit: cover;
+			height: 500px;
+		}
+		
+		@keyframes slideshow {
+			0% { left: 0; }
+			5% { left: 0; }
+			10% { left: -100; }
+			15% { left: -100%; }
+			25% { left: -200%; }
+			30% { left: -200%; }
+			40% { left: -300%; }
+			45% { left: -300%; }
+			55% { left: -400%; }
+			60% { left: -400%; }
+			70% { left: -500%; }
+			75% { left: -500%; }
+			85% { left: -600%; }
+			90% { left: -600%; }
+			95% { left: -700%; }
+			100% { left: -700%; }
+			110% { left: 0%}
+		}
+		/* ----- end of slideshow stylings ----- */
+
+		/* ----- carousel control buttons stylings ----- */
+		.slide-btn {
+			background-color: #bbb;
+			border-radius: 40%;
+			border: .2rem solid #274a72;
+			width: 1.2rem;
+			height: 1.2rem;
+			outline: none;
+			cursor: pointer;
+			/* stylings for positioning the buttons at
+			the bottom of the carousel */
+			position: absolute;
+			bottom: 3%;
+			left: 50%;
+			transform: translateX(-50%);
+			z-index: 70;
+		}
+		/* As we provide position as absolute,
+		the buttons places one over the other.
+		So, we have to place them individually
+		at their correct positions. */
+		.slide-btn-1 {
+			left: 35%;
+		}
+		.slide-btn-2 {
+			left: 40%;
+		}
+		.slide-btn-3 {
+			left: 45%;
+		}
+		.slide-btn-4 {
+			left: 50%;
+		}
+		.slide-btn-5 {
+			left: 55%;
+		}
+	
+		.slide-btn-6 {
+			left: 60%;
+		}
+		
+		.slide-btn-7 {
+			left: 65%;
+		}
+		
+		.slide-btn-8 {
+			left: 70%;
+		}
+		/* When we focus on the particular button,
+		the animation stops to that particular image
+		to which the button is associated. */
+		.slide-btn-1:focus~.slideshow-wrapper {
+			animation: none;
+			left: 0;
+		}
+		.slide-btn-2:focus~.slideshow-wrapper {
+			animation: none;
+			left: -100%;
+		}
+		.slide-btn-3:focus~.slideshow-wrapper {
+			animation: none;
+			left: -200%;
+		}
+		.slide-btn-4:focus~.slideshow-wrapper {
+			animation: none;
+			left: -300%;
+		}
+		.slide-btn-5:focus~.slideshow-wrapper {
+			animation: none;
+			left: -400%;
+		}
+		.slide-btn-6:focus~.slideshow-wrapper {
+			animation: none;
+			left: -500%;
+		}
+		.slide-btn-7:focus~.slideshow-wrapper {
+			animation: none;
+			left: -600%;
+		}
+		.slide-btn-8:focus~.slideshow-wrapper {
+			animation: none;
+			left: -700%;
+		}
+		/* when we focus on the button, the background color changes */
+		.slide-btn:focus {
+			background-color: #0515eb;
+		}
+		/* ----- end of carousel control buttons stylings ----- */
+
+/* Subscribe */
+.subscribe {
+	line-height: 2;
+	font-weight: 100px;
+	font-size: 40px;
+}
+
+.email_flex {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 10px;
+}
+
+.email {
+	margin-right: 20px;
+}
+
+.email_content {	
+    width: 400px;
+    padding: 5px 3px 5px 3px;
+    box-shadow: 5px 5px 5px rgb(163, 199, 240);
+    border-radius: 5px;
+	border: 1px solid rgb(89, 124, 241);
+}
+
+.Contact {
+	justify-content: space-between;	
+}
+
+
+.footer {
+    background-image: linear-gradient(to bottom, #2980b9, #6ebff5);
+
+}
+
+.footer_note {
+	line-height: 50;
+}
+
+
+
+/* ABOUT US */
+.about_us {
+	margin: 50px auto 20px auto;
+
+}
+/* 
+.nav_about {
+} */
+
+.home_about {
+	margin-left: -700px;
+	font-size: 25px;
+	color: #000;
+}
+
+.our_company {	
+    background-color: rgb(199, 221, 253);
+    margin: auto 200px 100px 200px;
+    box-shadow: 5px 5px 5px rgb(163, 199, 240);
+    border-radius: 2px;
+	padding: 50px;
+}
+
+.About_headers {
+	margin-bottom: 20px;
+}
+
+.p_company {
+	line-height: 2;
+	font-size: 25px;
+	margin-top: 10px;
+}
+
+.our_vision {
+    background-color: rgb(199, 221, 253);
+    margin: auto 200px 100px 200px;
+    box-shadow: 5px 5px 5px rgb(163, 199, 240);
+    border-radius: 2px;
+	padding: 50px;
+
+}
+
+.vision_display {
+	display: flex;	
+    width: 75%;
+    margin: 50px auto 50px auto ;
+	padding: 50px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.about_imgs1 {
+	
+    float: right;
+    margin-right: 30px;
+    width: 25%;
+}
+
+.about_imgs {
+	
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.our_mission {
+    background-color: rgb(199, 221, 253);
+    margin: auto 200px 100px 200px;
+    box-shadow: 5px 5px 5px rgb(163, 199, 240);
+    border-radius: 2px;
+	padding: 50px;
+}
+
+.mission_display {
+	display: flex;	
+    width: 75%;
+    margin: 50px auto 50px auto ;
+	padding: 50px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.location {
+    background-color: rgb(199, 221, 253);
+    margin: auto 200px 100px 200px;
+    box-shadow: 5px 5px 5px rgb(163, 199, 240);
+    border-radius: 2px;
+	padding: 50px;
+}
+.topnav{
+	visibility: hidden;
+}
+
+/* MEDIA QUERIES */
+@media (max-width: 420px){
+	* {
+    	margin: 0;
+    	padding: 0;
+    	bottom: 0;
+    	box-sizing: border-box;
+		max-width: 850px;
+	}
+	/* LANDING */
+	.nav {
+		overflow: hidden;
+  		background-color: #333;
+  		position: relative;
+		visibility: hidden;
+	}
+	
+	.hide {
+	visibility: visible;
+	}
+
+	.media {
+		margin-left: -330px;
+	}
+
+	.topnav {
+		visibility: visible;
+	}
+	.topnav {
+  		overflow: hidden;
+    	background-image: linear-gradient(to bottom, #6ebff5, #2980b9);
+  		position: relative;
+		  z-index: 2;
+		margin-top: -60px;
+	}
+
+	.topnav #myLinks {
+  		display: none;
+	}
+
+	.topnav a {
+  		color: rgb(19, 18, 18);
+  		padding: 14px 16px;
+  		text-decoration: none;
+  		font-size: 17px;
+  		display: block;
+	}
+
+	.topnav a.icon {
+    	background-image: linear-gradient(to bottom, #6ebff5, #2980b9);
+  		display: block;
+  		position: absolute;
+  		right: 0;
+  		top: 0;
+	}
+
+	.topnav a:hover {
+  		background-color: #ddd;
+  		color: black;
+	}
+
+	.Welcome_div {
+		width: 80%;
+		margin: 30px;
+	}
+
+	.Welcome {
+		font-size: 40px;
+		margin-top: 10px;
+	}
+	
+	.Welcome_paragraph {
+		font-size: 20px;
+	}
+
+	.CEO_div {
+		width: 80%;
+		margin: 30px;
+	}
+
+	.CEO {
+		font-size: 40px;
+		margin-top: 10px;
+	}
+
+	.CEO_paragraph {
+		font-size: 20px;
+	}
+
+	.CEO_img {
+		height: 100px;
+    	width: 100px;
+	}
+
+	.CEO_img {
+		width: 250px;
+		height:200px;
+		padding: 10px 0px 5px 70px;
+		display: grid;
+        grid-template-columns: repeat(1, 1fr);
+	}
+
+	.PRODUCTS {
+		font-size: 40px;
+		margin-top: 10px;
+	}
+
+	.slideshow-wrapper {
+		display: flex;
+		/* width: 400%; */
+		height: 250px;
+		width: 400px;
+		position: relative;
+		/* you can change the animation settings from below */
+		animation: slideshow 30s infinite;
+		margin: 0;
+		padding: 0;
+	}
+	
+	.slide-img {
+		width: 400px;
+		/* height: 20px; */
+		object-fit: cover;
+		height: 250px;
+	}
+	.slide-btn {
+		background-color: #bbb;
+		border-radius: 40%;
+		border: .2rem solid #274a72;
+		width: 0.8rem;
+		height: 0.8rem;
+	}
+	.slide-btn-1 {
+		left: 35%;
+	}
+	.slide-btn-2 {
+		left: 40%;
+	}
+	.slide-btn-3 {
+		left: 45%;
+	}
+	.slide-btn-4 {
+		left: 50%;
+	}
+	.slide-btn-5 {
+		left: 55%;
+	}
+	.slide-btn-6 {
+		left: 60%;
+	}
+	.slide-btn-7 {
+		left: 65%;
+	}
+	.slide-btn-8 {
+		left: 70%;
+	}
+	
+	.container {
+		margin: 0px;
+		padding: 10;
+	}
+
+	.content {
+		margin: 0px;
+		padding: 10;
+	}
+
+	.slideshow {
+		margin: 0px;
+		padding: 10;
+	}
+
+	br {
+		visibility: hidden;
+	}
+
+	.subscribe {
+		font-size: 20px;
+	}
+
+	.email_content {	
+    	width: 200px;
+	}
+
+	.btn_mobile {
+  		color: #bae1e8;
+  		font-size: 12px;
+  		padding: 3.5px 15px 3.5px 15px;	
+	}
+
+	.btn_n {
+		margin-top: 15px;
+	}
+
+
+	/* ABOUT US */
+	.about_us {
+		font-size: 30px;
+		margin-top: 40px;
+	}
+
+	.our_company {
+		width: 380px;
+		margin-left: 0px;
+	}
+
+	.Company_Image{
+		width: 200px;
+		height: 200px;
+	}
+
+	.our_vision {
+		width: 380px;
+		margin-left: 0px;
+	} 
+
+	.vision_display {
+		display: flex;
+		flex-direction: column;
+    	width: 100%;
+    	margin: 20px auto 20px auto ;
+		padding: 20px auto;
+    	text-align: center;
+	}
+	.about_imgs {
+		width: 200px;
+		height: 200px;
+		margin-left: 35px;
+	}
+
+	.about_imgs1 {
+		width: 200px;
+		height: 200px;
+		margin-left: 35px;
+	}
+
+	.our_mission{
+		width: 380px;
+		margin-left: 0px;
+	}
+	
+	.mission_display {
+		display: flex;
+		flex-direction: column;
+    	width: 100%;
+    	margin: 20px auto 20px auto ;
+		padding: 20px auto;
+    	text-align: center;
+	}
+
+	.location {
+		width: 380px;
+		margin-left: 0px;
+	}
+
+	.iframe {
+		width: 300px;
+		height: 300px;
+		margin-left: -10px;
+	}
+
+
+	/* SIGN UP */
+	.card {
+		width: 380px;
+		/* height: 690px; */
+	}
+
+	.headbox {
+		width: 316px;
+	}
+
+	/* SIGN IN */
+	
+}
+
+
+
+/* TABLET */
+/* @media (max-width: 770px) {
+	.slideshow-wrapper {
+		width: 700px;
+	}
+
+	.slide-img {
+		width: 700px;
+	}
+
+	.Welcome_div {
+		width: 700px;
+		margin: 30px;
+	}
+
+	.CEO_div {
+		width: 700px;
+		margin: 30px;
+	}
+
+	.our_company .our_mission .our_vision .location {
+		width: 700px;
+		margin: 30px;
+	}
+} */
