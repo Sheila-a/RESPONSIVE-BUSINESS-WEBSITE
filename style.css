@@ -524,7 +524,7 @@ hr {
 }
 
 /* MEDIA QUERIES */
-@media (max-width: 420px){
+@media (max-width: 424px){
 	* {
     	margin: 0;
     	padding: 0;
@@ -796,7 +796,7 @@ hr {
 	}
 
 	/* SIGN IN */
-	
+
 }
 
 
